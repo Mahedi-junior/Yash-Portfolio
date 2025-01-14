@@ -1,0 +1,36 @@
+body{
+    margin-top:0;
+}
+.header-section{
+    width:1440px;
+    height:813px;
+    padding:30px 60px;
+    margin:0 auto;
+    background-color:#001549;
+    color:#FFF;
+    margin-bottom:10px;
+}
+.nav-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size:25px;
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.nav-service{
+    display:flex;
+}
+
+.nav-service>li,a{
+    margin:0 15px 0 10px;
+    text-decoration:none;
+    font:400 18px 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    list-style:none;
+    color:#FFF;
+}
