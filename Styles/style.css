@@ -8,21 +8,18 @@ body{
 .font-inter{
     font-family: "Inter", serif;
 }
+/* -------------------header section------------------- */
 .header-section{
-    /* width:1440px; */
-    /* height:813px; */
     padding:40px 70px;
     margin:0 auto;
     background-color:#001549;
     color:#FFF;
-    /* margin-bottom:10px; */
 }
 .nav-container{
     display:flex;
     align-items:center;
     justify-content:space-between;
     padding: 0px 20px;
-
 }
 
 .logo{
@@ -52,24 +49,24 @@ body{
     margin-top: 50px;
 }
 
-.yash-discription{
+.yash-description{
     padding-right: 20px;
 
 }
-.yash-discription>h2{
+.yash-description>h2{
     font-size: 40px;
     margin-top: 50px;
 }
-.yash-discription>h4{
+.yash-description>h4{
     font-size: 20px;
 }
-.yash-discription>p{
+.yash-description>p{
     font-size: 22px;
     line-height: 40px;
     padding-top: 10px;
     color: #FFFFFFCC;
 }
-.yash-discription>p>span{
+.yash-description>p>span{
     font-weight: 600;
     color: white;
 }
@@ -99,17 +96,16 @@ main{
     padding: 60px 80px;
 }
 .about-me>span{
-    font-size: 25px;
+    font-size: 20px;
     color: #0033B6;
-    font-weight: 600;
 }
 .about-me>p{
-   font-size: 30px;
+   font-size: 22px;
    line-height: 40px;
    color: #001549;
 }
-.beyond{
-    color: #313131;
+.about-me>.beyond{
+    color: #767676;
 }
 
 /* ----------------------publications------------- */
@@ -120,14 +116,12 @@ main{
     border: 3px solid #001549;
     background: #e4e4e4;
     border-radius: 20px 0px 20px 0px;
-    /* margin-top: 100px; */
 }
 .pub-title{
     margin-top: 50px;
     padding: 20px 0px;
-    font-size: 25px;
+    font-size: 20px;
     color: #0033B6;
-    font-weight: 600;
 }
 .publications-content>h2{
     font-size: 28px;
@@ -149,6 +143,7 @@ main{
     color: white;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 /* --------------------------------achievements------------------- */
 .achievements-content{
@@ -157,8 +152,6 @@ main{
 .achievements-title{
     padding: 30px 10px;
     color: #0033B6;
-    font-weight: 600;
-
 }
 .achievements{
     border: 1px solid #c2c2c2;
@@ -169,13 +162,10 @@ main{
 .achievements:hover{
     border: 2px solid #c2c2c2;
     background: #ececec;
-    /* color: white; */
-
 }
 .achievements>h2,p{
-    font-size: 24px;
+    font-size: 20px;
     color: #001549;
-    /* font-weight: 700; */
 }
 
 /* ---------------------------review-content------------ */
@@ -213,12 +203,10 @@ main{
 }
 
 /* ------------------------Teaching Experience----------------- */
-
 .teaching-section{
     width: 60%;
     margin: auto;
     padding: 50px 0px;
-    /* background: #f6b1b1; */
 }
 .sub:hover{
     background: #ececec;
@@ -226,7 +214,6 @@ main{
 .teaching-title{
     text-align: center;
     font-weight: 600;
-
 }
 .thr{
     width: 50%;
@@ -236,7 +223,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid black;
+    border: 2px solid rgb(189, 189, 189);
     padding: 0px 20px;
     border-radius: 20px 0px 20px 0px;
     margin: 20px;
@@ -250,7 +237,6 @@ main{
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
-
 
 .blog-content{
     border: 2px solid rgb(204, 204, 204);
@@ -282,6 +268,7 @@ main{
 .lhr{
     width: 30%;
 }
+/*----------------------------MY LATEST TWEETS------------------------*/
 .tweets-section>p{
     padding: 30px 0px;
     margin-top: 30px;
@@ -295,9 +282,11 @@ main{
     margin-top: 50px;
 }
 
+/* -----------------------footer---------------------------------- */
 footer>span{
     background: #000000;
     height: 160px;
+    font-size: 20px;
     color: white;
     display: flex;
     align-items: center;
@@ -313,13 +302,13 @@ footer>span{
         flex-direction: column-reverse;
         text-align: center;
     }
-    .yash-discription>h2{
+    .yash-description>h2{
         font-size: 70px;
     }
-    .yash-discription>h4{
+    .yash-description>h4{
         font-size: 50px;
     }
-    .yash-discription>p{
+    .yash-description>p{
         font-size: 50px;
         line-height: 80px;
     }
@@ -341,15 +330,16 @@ footer>span{
         width: 90%;
         margin: auto;
     }
-    .review-content{
-        /* flex-direction: column; */
-    }
 
     .blog-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 80%;
         margin-left: 100px;
+    }
+    .blog-content{
+        text-align: center;
+
     }
     .blog-content>img{
         padding-bottom: 20px;
