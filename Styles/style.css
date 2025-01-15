@@ -1,10 +1,16 @@
 body{
     margin-top:0;
+    height: 100%;
+    width:1440px;
+    margin:0 auto;
+}
+.font-inter{
+    font-family: "Inter", serif;
 }
 .header-section{
-    width:1440px;
-    height:813px;
-    padding:30px 60px;
+    /* width:1440px; */
+    /* height:813px; */
+    padding:40px 70px;
     margin:0 auto;
     background-color:#001549;
     color:#FFF;
@@ -14,6 +20,8 @@ body{
     display:flex;
     align-items:center;
     justify-content:space-between;
+    padding: 0px 20px;
+
 }
 
 .logo{
@@ -28,9 +36,94 @@ body{
 }
 
 .nav-service>li,a{
-    margin:0 15px 0 10px;
+    margin:0 10px 0 10px;
     text-decoration:none;
-    font:400 18px 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    font-family: "Inter", serif;
+    font:500 18px 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
     list-style:none;
     color:#FFF;
+}
+/* -----------------------hero-section--------------------- */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin-top: 50px;
+}
+
+.yash-discription{
+    padding-right: 20px;
+
+}
+.yash-discription>h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.yash-discription>h4{
+    font-size: 20px;
+}
+.yash-discription>p{
+    font-size: 22px;
+    line-height: 40px;
+    padding-top: 10px;
+    color: #FFFFFFCC;
+}
+.yash-discription>p>span{
+    font-weight: 600;
+    color: white;
+}
+.advisor{
+    margin-bottom: 50px;
+}
+.social{
+    font-size: 18px;
+    border: 1px solid #FFFFFFCC;
+    margin-right: 20px;
+    padding:7px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.fa-brands,.fa-solid{
+    padding: 0px 5px;
+}
+.yash-img{
+    display: flex;
+    justify-content:end;
+    padding: 5px;
+}
+
+/* -----------------main section------------- */
+.about{
+   background: #FFFFFF;
+   font-size: 30px;
+   padding: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+
+    .hero-section{
+        width: 95%;
+        flex-direction: column-reverse;
+
+    }
+    .yash-img>img{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
 }
