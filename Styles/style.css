@@ -102,6 +102,7 @@ main{
 .about-me>span{
     font-size: 25px;
     color: #0033B6;
+    font-weight: 600;
 }
 .about-me>p{
    font-size: 30px;
@@ -117,9 +118,9 @@ main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     padding: 50px;
-    border: 3px solid black;
+    border: 3px solid #001549;
     background: #e4e4e4;
-    border-radius: 10px;
+    border-radius: 20px 0px 20px 0px;
     /* margin-top: 100px; */
 }
 .pub-title{
@@ -127,6 +128,7 @@ main{
     padding: 20px 0px;
     font-size: 25px;
     color: #0033B6;
+    font-weight: 600;
 }
 .publications-content>h2{
     font-size: 28px;
@@ -149,7 +151,32 @@ main{
     border-radius: 10px;
     border: none;
 }
+/* --------------------------------achievements------------------- */
+.achievements-content{
+    margin-top: 60px;
+}
+.achievements-title{
+    padding: 30px 10px;
+    color: #0033B6;
+    font-weight: 600;
 
+}
+.achievements{
+    border: 1px solid #c2c2c2;
+    text-align: center;
+    margin: 20px 0px;
+    border-radius: 20px 0px 20px 0px;
+}
+.achievements:hover{
+    border: 2px solid #c2c2c2;
+    background: #ececec;
+    /* color: white; */
+
+}
+.achievements>h2,p{
+    font-size: 24px;
+    /* font-weight: 700; */
+}
 
 
 
@@ -166,7 +193,17 @@ main{
     .hero-section{
         width: 95%;
         flex-direction: column-reverse;
-
+        text-align: center;
+    }
+    .yash-discription>h2{
+        font-size: 70px;
+    }
+    .yash-discription>h4{
+        font-size: 50px;
+    }
+    .yash-discription>p{
+        font-size: 50px;
+        line-height: 80px;
     }
     .yash-img>img{
         display: flex;
@@ -176,7 +213,7 @@ main{
 
     .publications{
         display: block;
-        text-align: center;
+        text-align:justify;
     }
     .pub-img>img{
         width: 90%;
